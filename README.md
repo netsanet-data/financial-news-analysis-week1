@@ -92,6 +92,23 @@ Next steps include:
 
 ---
 
+
+## Technical Indicators
+
+Future technical analysis includes:
+
+- Moving Average
+- RSI
+- MACD
+- Trend analysis
+## Exploratory Data Analysis
+
+The project explores:
+
+- Headline length distribution
+- Publisher frequency
+- Sentiment distribution
+- Most mentioned stocks
 ## Author
 
 Netsanet
