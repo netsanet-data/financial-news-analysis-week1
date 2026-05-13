@@ -2,14 +2,16 @@ name: Python CI
 
 on:
   push:
-    branches: [ main ]
+    branches:
+      - main
 
 jobs:
   build:
     runs-on: ubuntu-latest
 
     steps:
-    - uses: actions/checkout@v3
+    - name: Checkout repository
+      uses: actions/checkout@v3
 
     - name: Set up Python
       uses: actions/setup-python@v4
@@ -22,4 +24,4 @@ jobs:
 
     - name: Run simple test
       run: |
-        echo "CI workflow running successfully"
+        echo "CI workflow successful"
